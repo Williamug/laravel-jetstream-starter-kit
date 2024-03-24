@@ -1,8 +1,8 @@
-# Jetstream Laravel starter kit
+# Laravel jetstream starter kit
 
 ### Requirements
  
- - PHP ^8.1
+ - PHP ^8.2
  - Laravel ^11
 
 ### What is included
@@ -20,7 +20,7 @@
 
 ### or you can run all the steps in just on step.
 
-`git clone https://github.com/Williamug/jetstream-laravel-starter-kit.git project_name && cd project_name && composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed && npm install && code .`
+`git clone https://github.com/Williamug/laravel-jetstream-starter-kit.git project_name && cd project_name && composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate --seed && npm install && code .`
 
 The command above will clone the repo and `cd` to your project, run `composer install`, run `cp .env.example .env`, generate the `APP_KEY`, create sqlite database file, migrate database and seed the database, install npm packages and open the project in `vs code`.
 # Note.
@@ -44,11 +44,7 @@ Dashboard
 Table
 ![Table](public/images/readme-images/table.png)
 
-Modal
-![Modal](public/images/readme-images/modal.png)
 
-Permissions
-![Permissions](public/images/readme-images/permissions.png)
 # License
 Licensed under the [MIT](LICENSE) license
 
